@@ -53,7 +53,7 @@ app.post('/accommodation_inquiry', (req, res) => {
     });
 });
 
-const PORT = 3001;
+const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
