@@ -22,7 +22,8 @@ document.getElementById('accommodationForm').addEventListener('submit', function
     .then(response => response.text())
     .then(data => {
         console.log('Response:', data);
-        alert("Form submitted successfully!"); // Alert the user about successful submission
+        alert("Form submitted successfully!");
+         // Alert the user about successful submission
         // You can redirect to another page or do further handling if needed
     })
     .catch(error => console.error('Error:', error));

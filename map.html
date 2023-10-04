@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Accommodation Finder</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Accommodation Finder</h1>
+  <label for="collegeLat">College Latitude:</label>
+  <input type="number" id="collegeLat" step="0.00001" placeholder="College Latitude"><br><br>
+  
+  <label for="collegeLong">College Longitude:</label>
+  <input type="number" id="collegeLong" step="0.00001" placeholder="College Longitude"><br><br>
+  
+  <label for="railwayStationLat">Railway Station Latitude:</label>
+  <input type="number" id="railwayStationLat" step="0.00001" placeholder="Railway Station Latitude"><br><br>
+  
+  <label for="railwayStationLong">Railway Station Longitude:</label>
+  <input type="number" id="railwayStationLong" step="0.00001" placeholder="Railway Station Longitude"><br><br>
+
+  <label for="airportLat">Airport Latitude:</label>
+  <input type="number" id="airportLat" step="0.00001" placeholder="Airport Latitude"><br><br>
+  
+  <label for="airportLong">Airport Longitude:</label>
+  <input type="number" id="airportLong" step="0.00001" placeholder="Airport Longitude"><br><br>
+
+  <label for="hospitalLat">Hospital Latitude:</label>
+  <input type="number" id="hospitalLat" step="0.00001" placeholder="Hospital Latitude"><br><br>
+  
+  <label for="hospitalLong">Hospital Longitude:</label>
+  <input type="number" id="hospitalLong" step="0.00001" placeholder="Hospital Longitude"><br><br>
+
+  <button onclick="findAccommodation()">Find Accommodation</button>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script2.js"></script>
+</body>
+</html>
