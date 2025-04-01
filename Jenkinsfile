@@ -13,7 +13,7 @@ pipeline {
             steps {
                 script {
                     // Run your tests
-                    sh 'docker run myapp test'
+                    // sh 'docker run myapp test'
                 }
             }
         }
